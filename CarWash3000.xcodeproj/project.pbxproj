@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		57867263240D931E00DB6C81 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57867262240D931E00DB6C81 /* AppDelegate.swift */; };
+		57867265240D931E00DB6C81 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57867264240D931E00DB6C81 /* SceneDelegate.swift */; };
+		57867267240D931E00DB6C81 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57867266240D931E00DB6C81 /* ViewController.swift */; };
+		5786726A240D931E00DB6C81 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57867268240D931E00DB6C81 /* Main.storyboard */; };
+		5786726C240D932100DB6C81 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5786726B240D932100DB6C81 /* Assets.xcassets */; };
+		5786726F240D932100DB6C81 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5786726D240D932100DB6C81 /* LaunchScreen.storyboard */; };
+		5786727A240D932200DB6C81 /* CarWash3000Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57867279240D932200DB6C81 /* CarWash3000Tests.swift */; };
+		57867285240D932200DB6C81 /* CarWash3000UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57867284240D932200DB6C81 /* CarWash3000UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		57867276240D932100DB6C81 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 57867257240D931E00DB6C81 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5786725E240D931E00DB6C81;
+			remoteInfo = CarWash3000;
+		};
+		57867281240D932200DB6C81 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 57867257240D931E00DB6C81 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5786725E240D931E00DB6C81;
+			remoteInfo = CarWash3000;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5786725F240D931E00DB6C81 /* CarWash3000.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarWash3000.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		57867262240D931E00DB6C81 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		57867264240D931E00DB6C81 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		57867266240D931E00DB6C81 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		57867269240D931E00DB6C81 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5786726B240D932100DB6C81 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5786726E240D932100DB6C81 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		57867270240D932100DB6C81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57867275240D932100DB6C81 /* CarWash3000Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarWash3000Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		57867279240D932200DB6C81 /* CarWash3000Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarWash3000Tests.swift; sourceTree = "<group>"; };
+		5786727B240D932200DB6C81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57867280240D932200DB6C81 /* CarWash3000UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarWash3000UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		57867284240D932200DB6C81 /* CarWash3000UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarWash3000UITests.swift; sourceTree = "<group>"; };
+		57867286240D932200DB6C81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5786725C240D931E00DB6C81 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57867272240D932100DB6C81 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5786727D240D932200DB6C81 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		57867256240D931E00DB6C81 = {
+			isa = PBXGroup;
+			children = (
+				57867261240D931E00DB6C81 /* CarWash3000 */,
+				57867278240D932200DB6C81 /* CarWash3000Tests */,
+				57867283240D932200DB6C81 /* CarWash3000UITests */,
+				57867260240D931E00DB6C81 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		57867260240D931E00DB6C81 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5786725F240D931E00DB6C81 /* CarWash3000.app */,
+				57867275240D932100DB6C81 /* CarWash3000Tests.xctest */,
+				57867280240D932200DB6C81 /* CarWash3000UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		57867261240D931E00DB6C81 /* CarWash3000 */ = {
+			isa = PBXGroup;
+			children = (
+				57867262240D931E00DB6C81 /* AppDelegate.swift */,
+				57867264240D931E00DB6C81 /* SceneDelegate.swift */,
+				57867266240D931E00DB6C81 /* ViewController.swift */,
+				57867268240D931E00DB6C81 /* Main.storyboard */,
+				5786726B240D932100DB6C81 /* Assets.xcassets */,
+				5786726D240D932100DB6C81 /* LaunchScreen.storyboard */,
+				57867270240D932100DB6C81 /* Info.plist */,
+			);
+			path = CarWash3000;
+			sourceTree = "<group>";
+		};
+		57867278240D932200DB6C81 /* CarWash3000Tests */ = {
+			isa = PBXGroup;
+			children = (
+				57867279240D932200DB6C81 /* CarWash3000Tests.swift */,
+				5786727B240D932200DB6C81 /* Info.plist */,
+			);
+			path = CarWash3000Tests;
+			sourceTree = "<group>";
+		};
+		57867283240D932200DB6C81 /* CarWash3000UITests */ = {
+			isa = PBXGroup;
+			children = (
+				57867284240D932200DB6C81 /* CarWash3000UITests.swift */,
+				57867286240D932200DB6C81 /* Info.plist */,
+			);
+			path = CarWash3000UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5786725E240D931E00DB6C81 /* CarWash3000 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57867289240D932200DB6C81 /* Build configuration list for PBXNativeTarget "CarWash3000" */;
+			buildPhases = (
+				5786725B240D931E00DB6C81 /* Sources */,
+				5786725C240D931E00DB6C81 /* Frameworks */,
+				5786725D240D931E00DB6C81 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CarWash3000;
+			productName = CarWash3000;
+			productReference = 5786725F240D931E00DB6C81 /* CarWash3000.app */;
+			productType = "com.apple.product-type.application";
+		};
+		57867274240D932100DB6C81 /* CarWash3000Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5786728C240D932200DB6C81 /* Build configuration list for PBXNativeTarget "CarWash3000Tests" */;
+			buildPhases = (
+				57867271240D932100DB6C81 /* Sources */,
+				57867272240D932100DB6C81 /* Frameworks */,
+				57867273240D932100DB6C81 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				57867277240D932100DB6C81 /* PBXTargetDependency */,
+			);
+			name = CarWash3000Tests;
+			productName = CarWash3000Tests;
+			productReference = 57867275240D932100DB6C81 /* CarWash3000Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5786727F240D932200DB6C81 /* CarWash3000UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5786728F240D932200DB6C81 /* Build configuration list for PBXNativeTarget "CarWash3000UITests" */;
+			buildPhases = (
+				5786727C240D932200DB6C81 /* Sources */,
+				5786727D240D932200DB6C81 /* Frameworks */,
+				5786727E240D932200DB6C81 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				57867282240D932200DB6C81 /* PBXTargetDependency */,
+			);
+			name = CarWash3000UITests;
+			productName = CarWash3000UITests;
+			productReference = 57867280240D932200DB6C81 /* CarWash3000UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		57867257240D931E00DB6C81 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Avni Rexhaj";
+				TargetAttributes = {
+					5786725E240D931E00DB6C81 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					57867274240D932100DB6C81 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 5786725E240D931E00DB6C81;
+					};
+					5786727F240D932200DB6C81 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 5786725E240D931E00DB6C81;
+					};
+				};
+			};
+			buildConfigurationList = 5786725A240D931E00DB6C81 /* Build configuration list for PBXProject "CarWash3000" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 57867256240D931E00DB6C81;
+			productRefGroup = 57867260240D931E00DB6C81 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5786725E240D931E00DB6C81 /* CarWash3000 */,
+				57867274240D932100DB6C81 /* CarWash3000Tests */,
+				5786727F240D932200DB6C81 /* CarWash3000UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5786725D240D931E00DB6C81 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5786726F240D932100DB6C81 /* LaunchScreen.storyboard in Resources */,
+				5786726C240D932100DB6C81 /* Assets.xcassets in Resources */,
+				5786726A240D931E00DB6C81 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57867273240D932100DB6C81 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5786727E240D932200DB6C81 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5786725B240D931E00DB6C81 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57867267240D931E00DB6C81 /* ViewController.swift in Sources */,
+				57867263240D931E00DB6C81 /* AppDelegate.swift in Sources */,
+				57867265240D931E00DB6C81 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57867271240D932100DB6C81 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5786727A240D932200DB6C81 /* CarWash3000Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5786727C240D932200DB6C81 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57867285240D932200DB6C81 /* CarWash3000UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		57867277240D932100DB6C81 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5786725E240D931E00DB6C81 /* CarWash3000 */;
+			targetProxy = 57867276240D932100DB6C81 /* PBXContainerItemProxy */;
+		};
+		57867282240D932200DB6C81 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5786725E240D931E00DB6C81 /* CarWash3000 */;
+			targetProxy = 57867281240D932200DB6C81 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		57867268240D931E00DB6C81 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				57867269240D931E00DB6C81 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5786726D240D932100DB6C81 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5786726E240D932100DB6C81 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		57867287240D932200DB6C81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		57867288240D932200DB6C81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5786728A240D932200DB6C81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CarWash3000/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.AvniRexhaj.CarWash3000;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5786728B240D932200DB6C81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CarWash3000/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.AvniRexhaj.CarWash3000;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5786728D240D932200DB6C81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CarWash3000Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.AvniRexhaj.CarWash3000Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CarWash3000.app/CarWash3000";
+			};
+			name = Debug;
+		};
+		5786728E240D932200DB6C81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CarWash3000Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.AvniRexhaj.CarWash3000Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CarWash3000.app/CarWash3000";
+			};
+			name = Release;
+		};
+		57867290240D932200DB6C81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CarWash3000UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.AvniRexhaj.CarWash3000UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CarWash3000;
+			};
+			name = Debug;
+		};
+		57867291240D932200DB6C81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CarWash3000UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.AvniRexhaj.CarWash3000UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CarWash3000;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5786725A240D931E00DB6C81 /* Build configuration list for PBXProject "CarWash3000" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57867287240D932200DB6C81 /* Debug */,
+				57867288240D932200DB6C81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		57867289240D932200DB6C81 /* Build configuration list for PBXNativeTarget "CarWash3000" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5786728A240D932200DB6C81 /* Debug */,
+				5786728B240D932200DB6C81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5786728C240D932200DB6C81 /* Build configuration list for PBXNativeTarget "CarWash3000Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5786728D240D932200DB6C81 /* Debug */,
+				5786728E240D932200DB6C81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5786728F240D932200DB6C81 /* Build configuration list for PBXNativeTarget "CarWash3000UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57867290240D932200DB6C81 /* Debug */,
+				57867291240D932200DB6C81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 57867257240D931E00DB6C81 /* Project object */;
+}
