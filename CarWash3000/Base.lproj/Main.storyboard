@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina5_9" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -9,16 +10,227 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="CarWash3000" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" xcode11CocoaTouchSystemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="raindrop3" translatesAutoresizingMaskIntoConstraints="NO" id="rkC-cS-MoP">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="820"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="CarWash300 LOGO" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="YTr-dt-MOw">
+                                <rect key="frame" x="0.0" y="61" width="414" height="168"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Glossy Shine!" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sGZ-yZ-5kX">
+                                <rect key="frame" x="23" y="65" width="179" height="91"/>
+                                <fontDescription key="fontDescription" name="Zapfino" family="Zapfino" pointSize="17"/>
+                                <color key="textColor" red="0.78037494419999998" green="0.63997310399999996" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Input Your Name" textAlignment="center" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="jpd-u3-dZf">
+                                <rect key="frame" x="76" y="304" width="215" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="textUpdate:" destination="BYZ-38-t0r" eventType="editingChanged" id="irK-XN-xkS"/>
+                                </connections>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Srj-g3-zY1" customClass="CWEnterButton" customModule="CarWash3000" customModuleProvider="target">
+                                <rect key="frame" x="38" y="228" width="305" height="68"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="68" id="ukd-W4-gYt"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="23"/>
+                                <state key="normal" title="Turn ON CarCash here">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="medium" weight="regular"/>
+                                </state>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HtK-US-YmI">
+                                <rect key="frame" x="83" y="396" width="273" height="49"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="49" id="8lf-SC-94Z"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <color key="textColor" red="0.9395480751991272" green="0.24093380570411682" blue="0.13810622692108154" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="        &gt;&gt;  Slide To Choose " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="q1y-Wd-iAJ">
+                                <rect key="frame" x="68" y="453" width="288" height="42"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="42" id="CtU-7u-TuI"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <color key="textColor" systemColor="systemYellowColor" red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="2" minValue="0.0" maxValue="5" minimumValueImage="dollarsign.circle" catalog="system" maximumValueImage="dollarsign.circle.fill" translatesAutoresizingMaskIntoConstraints="NO" id="jAr-Ba-4Il" customClass="DesignableSlider" customModule="CarWash3000" customModuleProvider="target">
+                                <rect key="frame" x="60" y="508" width="264" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="29" id="aaw-g5-fO6"/>
+                                </constraints>
+                                <color key="minimumTrackTintColor" systemColor="systemPinkColor" red="1" green="0.1764705882" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="maximumTrackTintColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
+                                <color key="thumbTintColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="image" keyPath="thumbImage" value="Lambo"/>
+                                    <userDefinedRuntimeAttribute type="image" keyPath="thumbHighlightedImage" value="garage"/>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="slider:" destination="BYZ-38-t0r" eventType="valueChanged" id="v5Z-mf-afy"/>
+                                </connections>
+                            </slider>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="TypeOfSoap" translatesAutoresizingMaskIntoConstraints="NO" id="54T-27-YY5">
+                                <rect key="frame" x="8" y="387" width="98" height="139"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="PLEASE SELECT THE VEHICLE" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="O0h-8H-IGz">
+                                <rect key="frame" x="50" y="659" width="319" height="28"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="28" id="Puq-VK-M30"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <color key="textColor" red="0.41660875079999998" green="0.69307309390000005" blue="0.79372435809999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleAspectFill" selected="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageSizeForAccessibilityContentSizeCategory="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pIS-XS-iNR">
+                                <rect key="frame" x="23" y="611" width="66" height="45"/>
+                                <state key="normal" image="SEDAN"/>
+                                <connections>
+                                    <action selector="SedanButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="SaO-pi-Edk"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleAspectFill" selected="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageSizeForAccessibilityContentSizeCategory="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MgY-Tc-A2e">
+                                <rect key="frame" x="197" y="611" width="65" height="45"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="65" id="KbF-Ro-LRy"/>
+                                </constraints>
+                                <state key="normal" image="SUV"/>
+                                <connections>
+                                    <action selector="SUVButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="LCs-mB-a81"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Total Charges" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="5" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RC9-Yd-1wJ">
+                                <rect key="frame" x="23" y="679" width="326" height="118"/>
+                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="18"/>
+                                <color key="textColor" red="0.47751015419999998" green="0.76660871509999995" blue="0.3550682664" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleAspectFill" selected="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageSizeForAccessibilityContentSizeCategory="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1DR-xm-IlH">
+                                <rect key="frame" x="283" y="611" width="65.666666666666686" height="45"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="65.666666666666686" id="21e-Oh-qby"/>
+                                </constraints>
+                                <state key="normal" image="SPORT"/>
+                                <connections>
+                                    <action selector="SportButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="mmo-Ml-Sql"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleAspectFill" selected="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageSizeForAccessibilityContentSizeCategory="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="adr-LQ-feH">
+                                <rect key="frame" x="111" y="611" width="65.666666666666686" height="45"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="65.666666666666686" id="wHX-Te-TI3"/>
+                                </constraints>
+                                <state key="normal" image="TRUCK"/>
+                                <connections>
+                                    <action selector="TruckButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="kxK-eM-QRl"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xWU-K5-tBR">
+                                <rect key="frame" x="0.0" y="350" width="369" height="38"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="38" id="IZ6-FU-uHV"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                <color key="textColor" red="0.3544075787" green="0.79817748070000005" blue="0.95303815599999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.050980392156862744" green="0.24705882352941178" blue="0.40392156862745099" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="MgY-Tc-A2e" firstAttribute="top" secondItem="1DR-xm-IlH" secondAttribute="top" id="0vh-9P-9OO"/>
+                            <constraint firstItem="sGZ-yZ-5kX" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="21" id="1oz-aw-d66"/>
+                            <constraint firstItem="jpd-u3-dZf" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="76" id="1yf-gH-krp"/>
+                            <constraint firstItem="YTr-dt-MOw" firstAttribute="leading" secondItem="xWU-K5-tBR" secondAttribute="leading" id="20e-kD-L1u"/>
+                            <constraint firstItem="YTr-dt-MOw" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="3tK-vl-MUk"/>
+                            <constraint firstItem="YTr-dt-MOw" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="17" id="48t-af-jnv"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="54T-27-YY5" secondAttribute="trailing" constant="269" id="5Kv-8N-R3c"/>
+                            <constraint firstItem="q1y-Wd-iAJ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="68" id="5OF-ti-wqo"/>
+                            <constraint firstItem="54T-27-YY5" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="8" id="5qk-5J-keg"/>
+                            <constraint firstItem="rkC-cS-MoP" firstAttribute="leading" secondItem="xWU-K5-tBR" secondAttribute="leading" id="7Cj-CI-A2t"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="jAr-Ba-4Il" secondAttribute="trailing" constant="53" id="7Py-w0-IuK"/>
+                            <constraint firstItem="jAr-Ba-4Il" firstAttribute="top" secondItem="q1y-Wd-iAJ" secondAttribute="bottom" constant="13" id="8lY-cU-h6Z"/>
+                            <constraint firstItem="1DR-xm-IlH" firstAttribute="leading" secondItem="MgY-Tc-A2e" secondAttribute="trailing" constant="21" id="ASr-tZ-wnd"/>
+                            <constraint firstItem="RC9-Yd-1wJ" firstAttribute="top" secondItem="pIS-XS-iNR" secondAttribute="bottom" constant="23" id="CxP-gM-Gf4"/>
+                            <constraint firstItem="pIS-XS-iNR" firstAttribute="top" secondItem="adr-LQ-feH" secondAttribute="top" id="Gcg-uC-VlU"/>
+                            <constraint firstItem="rkC-cS-MoP" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" constant="-44" id="HWH-fx-9uK"/>
+                            <constraint firstItem="HtK-US-YmI" firstAttribute="top" secondItem="xWU-K5-tBR" secondAttribute="bottom" constant="8" id="IWr-tu-b6g"/>
+                            <constraint firstItem="pIS-XS-iNR" firstAttribute="leading" secondItem="RC9-Yd-1wJ" secondAttribute="leading" id="L4b-2g-Gjj"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="RC9-Yd-1wJ" secondAttribute="bottom" constant="-19" id="Lau-Wl-dxM"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Srj-g3-zY1" secondAttribute="trailing" constant="32" id="Lxg-O2-4wG"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="HtK-US-YmI" secondAttribute="trailing" constant="19" id="OcB-ZU-hTy"/>
+                            <constraint firstItem="jAr-Ba-4Il" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="62" id="QlX-i3-4f0"/>
+                            <constraint firstItem="adr-LQ-feH" firstAttribute="leading" secondItem="pIS-XS-iNR" secondAttribute="trailing" constant="22" id="SgK-Kw-GXP"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="jpd-u3-dZf" secondAttribute="trailing" constant="84" id="TCe-Da-QG1"/>
+                            <constraint firstItem="pIS-XS-iNR" firstAttribute="top" secondItem="jAr-Ba-4Il" secondAttribute="bottom" constant="74" id="U3y-br-c1f"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="1DR-xm-IlH" secondAttribute="trailing" constant="26.333333333333314" id="Wnb-yr-evH"/>
+                            <constraint firstItem="54T-27-YY5" firstAttribute="top" secondItem="jpd-u3-dZf" secondAttribute="bottom" constant="49" id="Xag-B3-EJz"/>
+                            <constraint firstItem="xWU-K5-tBR" firstAttribute="top" secondItem="jpd-u3-dZf" secondAttribute="bottom" constant="12" id="YFj-3W-g2Q"/>
+                            <constraint firstItem="HtK-US-YmI" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="83" id="b6b-lY-7vL"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="xWU-K5-tBR" secondAttribute="trailing" constant="6" id="dGk-Fm-Ac4"/>
+                            <constraint firstItem="jpd-u3-dZf" firstAttribute="top" secondItem="Srj-g3-zY1" secondAttribute="bottom" constant="8" id="dzS-6Y-z6g"/>
+                            <constraint firstItem="sGZ-yZ-5kX" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="23" id="eYX-mQ-HFB"/>
+                            <constraint firstItem="HtK-US-YmI" firstAttribute="trailing" secondItem="q1y-Wd-iAJ" secondAttribute="trailing" id="g3B-96-53g"/>
+                            <constraint firstItem="MgY-Tc-A2e" firstAttribute="leading" secondItem="adr-LQ-feH" secondAttribute="trailing" constant="20.333333333333314" id="ggg-tP-6CR"/>
+                            <constraint firstItem="sGZ-yZ-5kX" firstAttribute="leading" secondItem="pIS-XS-iNR" secondAttribute="leading" id="hQk-4q-gId"/>
+                            <constraint firstItem="Srj-g3-zY1" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="38" id="ien-jq-KeL"/>
+                            <constraint firstItem="q1y-Wd-iAJ" firstAttribute="top" secondItem="HtK-US-YmI" secondAttribute="bottom" constant="8" id="ikF-he-UE9"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="sGZ-yZ-5kX" secondAttribute="trailing" constant="173" id="jLI-lf-UNy"/>
+                            <constraint firstItem="O0h-8H-IGz" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="50" id="kCb-N0-ojg"/>
+                            <constraint firstItem="jpd-u3-dZf" firstAttribute="top" secondItem="YTr-dt-MOw" secondAttribute="bottom" constant="75" id="ks0-cP-iBe"/>
+                            <constraint firstItem="Srj-g3-zY1" firstAttribute="top" secondItem="sGZ-yZ-5kX" secondAttribute="bottom" constant="72" id="l4k-Fp-LlI"/>
+                            <constraint firstItem="O0h-8H-IGz" firstAttribute="top" secondItem="pIS-XS-iNR" secondAttribute="bottom" constant="3" id="lpG-wK-B4G"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="RC9-Yd-1wJ" secondAttribute="trailing" constant="26" id="nCL-MB-BzL"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="O0h-8H-IGz" secondAttribute="bottom" constant="91" id="nD0-nR-TM1"/>
+                            <constraint firstItem="rkC-cS-MoP" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="pBr-yb-mfw"/>
+                            <constraint firstItem="xWU-K5-tBR" firstAttribute="trailing" secondItem="O0h-8H-IGz" secondAttribute="trailing" id="wN2-kc-lvj"/>
+                            <constraint firstItem="adr-LQ-feH" firstAttribute="top" secondItem="MgY-Tc-A2e" secondAttribute="top" id="wql-IN-lxO"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="rkC-cS-MoP" secondAttribute="bottom" constant="-42" id="yVw-Zh-0QP"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="gXk-OO-KAQ" appends="YES" id="h8L-fZ-6jD"/>
+                        </connections>
                     </view>
+                    <connections>
+                        <outlet property="MyTextBox" destination="jpd-u3-dZf" id="nAM-Uv-WcI"/>
+                        <outlet property="ShowWelcomeMessage" destination="xWU-K5-tBR" id="21b-kE-2G0"/>
+                        <outlet property="counterLabel" destination="HtK-US-YmI" id="brw-Og-G57"/>
+                        <outlet property="sliderLabel" destination="jAr-Ba-4Il" id="gLH-sD-G8D"/>
+                        <outlet property="totalCharges" destination="RC9-Yd-1wJ" id="One-Ih-4LR"/>
+                        <outlet property="washOptionLabel" destination="q1y-Wd-iAJ" id="2Tm-Cx-WMM"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="gXk-OO-KAQ">
+                    <connections>
+                        <action selector="dismissKeyboard:" destination="BYZ-38-t0r" id="WQv-Ui-IX0"/>
+                    </connections>
+                </tapGestureRecognizer>
             </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="118.22660098522168"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="CarWash300 LOGO" width="414" height="414"/>
+        <image name="Lambo" width="40" height="40"/>
+        <image name="SEDAN" width="60" height="45"/>
+        <image name="SPORT" width="60" height="45"/>
+        <image name="SUV" width="60" height="45"/>
+        <image name="TRUCK" width="60" height="45"/>
+        <image name="TypeOfSoap" width="139" height="139"/>
+        <image name="dollarsign.circle" catalog="system" width="64" height="60"/>
+        <image name="dollarsign.circle.fill" catalog="system" width="64" height="60"/>
+        <image name="garage" width="40" height="40"/>
+        <image name="raindrop3" width="414" height="896"/>
+    </resources>
 </document>
